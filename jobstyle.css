@@ -1,0 +1,63 @@
+body {
+            font-family: Arial, sans-serif;
+            background:linear-gradient(to right, #ab9ac0, #8a5c6e);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .application-container {
+            background-color:#fff;
+            border-radius: 50px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 30px;
+            width: 400px;
+        }
+        
+
+        .application-container h2 {
+            color: #333;
+        }
+
+        .application-form {
+            margin-top: 1%;
+        }
+
+        .application-form label, .application-form input, .application-form select, .application-form button {
+            display: block;
+            margin-bottom: 20px;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        .application-form input, .application-form select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            outline: none;
+        }
+
+        .application-form input[type="file"] {
+            border: none;
+            padding: 0;
+            background: transparent;
+        }
+
+        .application-form button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .application-form button:hover {
+            background-color: #2980b9;
+        }
